@@ -1,0 +1,43 @@
+import http from 'http';
+// import gfName from './features.js';
+// import { love } from './features.js';
+// import fs from 'fs';
+// import path from 'path';
+
+// console.log(path.dirname('./index.html'))
+
+
+// console.log(gfName); // Outputs: Sundari
+
+
+//  fs.readFile('./index.html', ()=>{
+//     console.log("File read")
+// })
+// const server = http.createServer((req, res) => {
+//     console.log(req.url);
+
+//     // Set the content type to HTML
+//     // res.setHeader('Content-Type', 'text/html');
+//     const home = fs.readFileSync('./index.html')
+//     // console.log(home)
+
+
+//     if (req.url === '/about') {
+//         res.end("<h1>About!</h1>");
+//     } else if (req.url === '/') {
+//         // fs.readFile('./index.html', (err, data)=>{
+//         //    res.end(data)
+//         // })
+//         res.end(home);
+//     } else if (req.url === '/contact') {
+//         res.end("<h1>Contact!</h1>");
+//     } else if (req.url === '/love') {
+//         res.end(`<h1>Love is ${love()} %</h1>`);  // Corrected to call the love function
+//     } else {
+//         res.end("<h1>Not Found!</h1>");
+//     }
+// });
+
+// server.listen(5000, () => {
+//     console.log('Server is Working');
+// });
